@@ -99,7 +99,8 @@ height: 200px;
 .bottom-block {
     display: flex;
     text-align: center;
-    height: 324px;
+    align-items: stretch;
+
 }
 .bottom-block h2 {
     font-size: 16px;
@@ -114,13 +115,22 @@ height: 200px;
 .info {
     float: left;
     padding: 10px;
-    width: 200px;
+   /*width: 200px;*/
     background-color: rgb(165, 181, 184);
+}
+.info ul {
+    width: 200px;
+    text-align: justify;
+}
+.info li {
+    padding: 5px;
+    list-style-position: inside;
 }
 .content {
     float:left;
     padding: 10px;
-    width: 540px;
+    /*width: 540px;*/
+    background-color: rgb(231, 166, 140);
 }
 .content img {
     width: auto;
@@ -129,9 +139,8 @@ height: 200px;
 .news {
     float:right;
     padding: 10px;
-    width: 200px;
+    /*width: 200px;*/
     background-color: rgb(165, 181, 184);
-
 }
 /**FOOTER**/
 footer {

@@ -37,7 +37,8 @@ body {
 .heading {
 margin: 41px 256px 0px 100px;
 font-size: 14px;
-color: rgb(212, 98, 53);
+color: rgba(41, 107, 206, 1);
+background-color:rgba(201, 228, 200, 0.7);
 font-weight: bold;
 text-align: center;
 }
@@ -121,30 +122,37 @@ height: 200px;
 .info {
     float: left;
     padding: 10px;
-   /*width: 200px;*/
+    width: 200px;
     background-color: rgb(165, 181, 184);
 }
 .info ul {
     width: 200px;
+    list-style: none;
 }
 .info li {
     padding: 5px;
     list-style-position: inside;
 }
+.info li::before {
+    content: "🌴"
+}
 .content {
     float:left;
     padding: 10px;
-    /*width: 540px;*/
+    width: 528px;
     background-color: rgb(231, 166, 140);
 }
 .content img {
+    display: block;
     width: auto;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 .news {
     float:right;
     padding: 10px;
-    /*width: 200px;*/
+    width: 200px;
     background-color: rgb(165, 181, 184);
 }
 /**FOOTER**/

@@ -35,7 +35,8 @@ body {
     background-size: 300px 130px;
 }
 .heading {
-margin: 41px 256px 0px 100px;
+margin: 31px 246px 0px 100px;
+padding: 5px;
 font-size: 14px;
 color: rgba(41, 107, 206, 1);
 background-color:rgba(201, 228, 200, 0.7);
